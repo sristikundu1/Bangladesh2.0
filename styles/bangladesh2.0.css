@@ -255,3 +255,36 @@ nav {
   line-height: 24px;
   text-align: left;
 }
+
+.opinion {
+  max-width: 1600px;
+  margin: 80px auto 0;
+}
+
+/* footer style  */
+footer {
+  max-width: 1600px;
+  margin: 80px auto 0;
+}
+
+.footer-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgba(14, 14, 14, 0.1);
+  margin: 20px 120px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
