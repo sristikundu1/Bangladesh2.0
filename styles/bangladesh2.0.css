@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.fira-sans-primary-font {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
+}
+
+/* common css style  */
+.primary-btn {
+  border-radius: 8px;
+  background: rgba(0, 106, 80, 1);
+  padding: 17px 34px 17px 34px;
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  border: none;
+}
+/* navbar style  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 160px;
+}
+
+.nav-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+}
+
+.sign-btn {
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 106, 80, 1);
+  border-radius: 8px;
+  color: rgba(0, 106, 80, 1);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  padding: 15px 30px 15px 30px;
+}
+
+/* banner style  */
+.banner {
+  max-width: 1400px;
+  margin: 0 auto;
+  border-radius: 24px;
+  background: rgba(198, 228, 214, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px 80px 100px;
+}
+
+.banner-subheading {
+  color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  text-align: left;
+}
+
+.banner-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  text-align: left;
+  margin: 16px 0;
+}
