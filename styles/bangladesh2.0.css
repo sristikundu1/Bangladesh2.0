@@ -10,6 +10,10 @@
   font-variation-settings: "wdth" 100;
 }
 
+body {
+  background-color: #f5f5f5;
+}
+
 /* common css style  */
 .primary-btn {
   border-radius: 8px;
@@ -22,6 +26,32 @@
   text-align: center;
   border: none;
 }
+
+.section-title {
+  color: rgba(14, 14, 14, 1);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.card-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
 /* navbar style  */
 nav {
   display: flex;
@@ -76,4 +106,152 @@ nav {
   line-height: 67px;
   text-align: left;
   margin: 16px 0;
+}
+
+/* pillar style  */
+
+.pillars {
+  max-width: 1600px;
+  margin: 80px auto 0;
+}
+
+.pillar-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+
+.pillar-card {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+}
+
+.pillar-card-img {
+  width: 64px;
+  height: 64px;
+}
+
+/* vision future style  */
+.future {
+  max-width: 1600px;
+  margin: 80px auto 0;
+}
+
+.vision-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  margin-top: 30px;
+}
+
+.vision-card-img {
+  width: 64px;
+  height: 64px;
+}
+
+.Digital-card {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 32px;
+}
+
+.Green-card {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(198, 228, 214, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 32px;
+}
+
+.Modern-card {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(247, 235, 207, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 32px;
+}
+
+.digital-btn {
+  border-radius: 8px;
+  background: rgba(84, 144, 245, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  border: none;
+  padding: 11px 20px;
+}
+
+.Green-btn {
+  border-radius: 8px;
+  background: rgba(9, 161, 92, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  border: none;
+  padding: 11px 20px;
+}
+
+.Modern-btn {
+  border-radius: 8px;
+  background: rgba(255, 194, 57, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  border: none;
+  padding: 11px 20px;
+}
+
+/* quatation */
+
+.quatation {
+  max-width: 1600px;
+  margin: 80px auto 0;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 48px 24px 48px 24px;
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 24px 24px;
+}
+
+.position {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
 }
