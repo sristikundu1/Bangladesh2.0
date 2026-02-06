@@ -10,7 +10,8 @@
   font-variation-settings: "wdth" 100;
 }
 
-body {
+header,
+main {
   background-color: #f5f5f5;
 }
 
@@ -261,10 +262,121 @@ nav {
   margin: 80px auto 0;
 }
 
+.opinion-table {
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  padding: 32px;
+}
+
+table {
+  width: 100%;
+}
+
+.table-head {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(198, 228, 214, 1);
+}
+
+.table-head th {
+  padding: 24px;
+}
+
+.head1 {
+  text-align: left;
+}
+
+.head2 {
+  text-align: right;
+}
+
+table,
+td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+}
+
+td {
+  padding: 26px 24px;
+  color: rgba(14, 14, 14, 1);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: left;
+}
+
+.yes {
+  border: 1px solid rgba(14, 14, 14, 1);
+  border-radius: 4px;
+  background: rgba(198, 228, 214, 1);
+  padding: 10px 14px 10px 14px;
+  margin: 10px;
+}
+
+.news {
+  max-width: 1600px;
+  margin: 80px auto 0;
+}
+
+.news-cards {
+  margin: 32px 0;
+}
+.news-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  padding: 48px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 1);
+  margin-bottom: 24px;
+}
+
+.satelight {
+  border-radius: 24px;
+  width: 408px;
+  height: 306px;
+}
+
+.news-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.news-card-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  text-align: left;
+}
+
+.al-jazeera {
+  width: 134px;
+  height: 40px;
+}
+
+.read-btn {
+  border-radius: 8px;
+  background: rgba(0, 106, 80, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  border: none;
+  padding: 13px 26px;
+  width: 14%;
+}
+
 /* footer style  */
 footer {
   max-width: 1600px;
-  margin: 80px auto 0;
+  margin: 80px auto 50px;
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .footer-title {
