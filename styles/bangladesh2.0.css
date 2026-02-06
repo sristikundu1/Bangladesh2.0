@@ -382,11 +382,12 @@ td {
 }
 
 .donate > input[type="text"] {
-  width: 100%;
+  width: 90%;
   padding: 20px;
   border: none;
   text-align: center;
   margin-bottom: 32px;
+  margin-left: 48px;
 }
 
 .donate > input[type="text"]::placeholder {
