@@ -85,7 +85,7 @@ nav {
 
 /* banner style  */
 .banner {
-  max-width: 1120px;
+  max-width: 1520px;
   margin: 0 auto;
   border-radius: 24px;
   background: rgba(198, 228, 214, 1);
@@ -115,7 +115,7 @@ nav {
 /* pillar style  */
 
 .pillars {
-  max-width: 1300px;
+  max-width: 1680px;
   margin: 80px auto 0;
 }
 
@@ -146,7 +146,7 @@ nav {
 
 /* vision future style  */
 .future {
-  max-width: 1300px;
+  max-width: 1680px;
   margin: 80px auto 0;
 }
 
@@ -235,7 +235,7 @@ nav {
 /* quatation */
 
 .quatation {
-  max-width: 1300px;
+  max-width: 1680px;
   margin: 80px auto 0;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -261,7 +261,7 @@ nav {
 }
 
 .opinion {
-  max-width: 1300px;
+  max-width: 1680px;
   margin: 80px auto 0;
 }
 
@@ -318,7 +318,7 @@ td {
 }
 
 .news {
-  max-width: 1300px;
+  max-width: 1680px;
   margin: 80px auto 0;
 }
 
@@ -371,12 +371,12 @@ td {
   font-weight: 600;
   line-height: 22px;
   border: none;
-  padding: 13px 26px;
-  width: 14%;
+  padding: 13px 20px;
+  width: 20%;
 }
 
 .donate {
-  max-width: 1120px;
+  max-width: 1420px;
   margin: 80px auto 0;
   padding: 0 118px;
 }
@@ -440,7 +440,7 @@ p {
 
 /* newsletter style  */
 .newsletter {
-  max-width: 1120px;
+  max-width: 1480px;
   margin: 80px auto 30px;
   border-radius: 24px;
   background: rgba(198, 228, 214, 1);
@@ -504,4 +504,113 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 16px;
+}
+
+/* media query  */
+/* for mobile  */
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 34px;
+    text-align: center;
+  }
+  .description {
+    padding: 0 14px;
+  }
+  nav {
+    margin: 30px 28px;
+  }
+  .banner {
+    padding: 26px 23px 26px 23px;
+    flex-direction: column;
+  }
+  .banner-title {
+    font-size: 34px;
+    line-height: 44px;
+  }
+  .hero-img {
+    width: 70%;
+    height: 100%;
+    padding-top: 20px;
+  }
+  .pillar-cards {
+    flex-direction: column;
+  }
+  .pillar-card {
+    padding: 14px;
+    margin: 0 14px;
+    align-items: center;
+  }
+  .vision-cards {
+    flex-direction: column;
+  }
+  .Digital-card {
+    align-items: center;
+    padding: 14px;
+    margin: 0 14px;
+  }
+  .Green-card {
+    align-items: center;
+    padding: 14px;
+    margin: 0 14px;
+  }
+  .Modern-card {
+    align-items: center;
+    padding: 14px;
+    margin: 0 14px;
+  }
+  .quatation {
+    margin: 20px 14px;
+  }
+  .opinion {
+    margin: 34px auto 0;
+  }
+  .table-head th {
+    padding: 10px;
+  }
+  td {
+    padding: 26px 14px;
+    font-size: 12px;
+  }
+  .yes {
+    padding: 2px 0px 2px 0px;
+    margin: 0px;
+    font-size: 10px;
+  }
+  .read-btn {
+    width: 48%;
+  }
+  .news {
+    margin: 0px auto 0;
+  }
+  .news-card {
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .donate {
+    margin: 26px auto 0;
+    padding: 0 10px;
+  }
+  .money-cards {
+    flex-direction: column;
+  }
+  .money-card > h2 {
+    font-size: 35px;
+    padding: 24px;
+  }
+  .donate > input[type="text"] {
+    margin-bottom: 10px;
+    margin-left: 0px;
+  }
+  .newsletter {
+    margin: 80px 10px 30px;
+    padding: 25px 20px 25px 20px;
+  }
+  footer {
+    padding: 30px 34px;
+  }
+  hr {
+    margin: 16px 12px;
+  }
 }
