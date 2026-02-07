@@ -85,7 +85,7 @@ nav {
 
 /* banner style  */
 .banner {
-  max-width: 1400px;
+  max-width: 1120px;
   margin: 0 auto;
   border-radius: 24px;
   background: rgba(198, 228, 214, 1);
@@ -115,7 +115,7 @@ nav {
 /* pillar style  */
 
 .pillars {
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 80px auto 0;
 }
 
@@ -146,7 +146,7 @@ nav {
 
 /* vision future style  */
 .future {
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 80px auto 0;
 }
 
@@ -235,7 +235,7 @@ nav {
 /* quatation */
 
 .quatation {
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 80px auto 0;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
@@ -261,7 +261,7 @@ nav {
 }
 
 .opinion {
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 80px auto 0;
 }
 
@@ -318,7 +318,7 @@ td {
 }
 
 .news {
-  max-width: 1600px;
+  max-width: 1300px;
   margin: 80px auto 0;
 }
 
@@ -376,7 +376,7 @@ td {
 }
 
 .donate {
-  max-width: 1400px;
+  max-width: 1120px;
   margin: 80px auto 0;
   padding: 0 118px;
 }
@@ -440,8 +440,8 @@ p {
 
 /* newsletter style  */
 .newsletter {
-  max-width: 1400px;
-  margin: 80px auto 0;
+  max-width: 1120px;
+  margin: 80px auto 30px;
   border-radius: 24px;
   background: rgba(198, 228, 214, 1);
   padding: 80px 100px 80px 100px;
